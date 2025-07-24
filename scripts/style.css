@@ -161,6 +161,20 @@ nav .langs span, nav .langs a {display:inline; padding:0;}
 nav .langs a span {width:18px; height:12px; display:inline-block; margin:0 4px; box-shadow:0 1px 3px #000; opacity:0.6; transition:opacity 150ms linear;}
 nav .langs a:hover span {opacity:1;}
 
+#home-header {
+  background: transparent;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 0;
+  margin-top: -10px;
+  border: none;
+  box-shadow: none;
+}
+
+
+
+
 /* ================================================================================ *\
 	People
 \* ================================================================================ */
@@ -455,11 +469,5 @@ object#thethoughtsflash {position:relative; left:-30px;}
 }
 
 
-#home-header div {
-    background: rgba(255, 255, 255, 0.1) !important;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: none !important;
-    backdrop-filter: blur(5px);
-}
+
 
